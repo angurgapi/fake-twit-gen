@@ -1,0 +1,33 @@
+{
+  "name": "twittr",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.14.6",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "vue": "^2.6.12",
+    "vue-typer": "^1.2.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "eslint": "^7.17.0",
+    "eslint-import-resolver-nuxt": "^1.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.4.0",
+    "fibers": "^5.0.0",
+    "push-dir": "^0.4.1",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0"
+  }
+}
