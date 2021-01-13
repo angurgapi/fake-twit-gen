@@ -1,4 +1,5 @@
-# studentz
+# fake twit generator
+ 
 
 ## Build Setup
 

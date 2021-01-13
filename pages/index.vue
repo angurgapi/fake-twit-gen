@@ -42,8 +42,6 @@
   margin-top: 30px
   width: 600px
   @include flexcolcent
-  border: 5px dashed rgba(0,0,0,.2)
-
 
 .twit
   margin: 20px
@@ -71,7 +69,6 @@
   border-radius: 50%
 
 .nickname
-
   margin-left: 5px
   width: 100%
   height: 100%
@@ -80,12 +77,14 @@
   font-weight: bold
 
 .login
-  color: rgb(101, 119, 134)
+  color: $twigrey
 
 .twit-content
   font-weight: 400
   font-size: 23px
 
+.twit-text
+  margin-top: 10px
 </style>
 
 <script>

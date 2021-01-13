@@ -8,16 +8,13 @@
       <label>Login</label>
       <input type="textarea" class='form-login' ref='login'>   
       <label>Twit text</label>
-      <input type="textarea" class='form-body' ref='twitText' maxlength="280">
+      <textarea class='form-body' ref='twitText' maxlength="280"></textarea>
       <label>Userpic url</label>
       <input type="textarea" class='form-userpic' ref='userpic'>
-    
-    <div class='form-timedate'>
       <label>Time</label>
       <input type="textarea" class='form-time' ref='time'>
       <label>Date</label>
-      <input type="textarea" class='form-date' ref='date'>
-    </div>
+      <input type="textarea" class='form-date' ref='date'>  
       <label>Version</label>
       <input type="textarea" class='form-version' ref='version'>
   </form>
@@ -32,18 +29,17 @@
   min-width: 350px
   @include flexcolcent
 
+label
+  margin-top: 20px
 input
   width: 100%
   height: 36px
   border-radius: 10px
 
-.form-timedate
+.form-body
+  height: 60px
   width: 100%
-  display: flex
-  flex-direction: row
-  align-items: center
-  margin-top: 20px
-
+  border-radius: 10px
 .twit-text
   margin-top: 20px
 
@@ -58,10 +54,10 @@ input
       margin-right: 4px
 
 .time, .date
-  color: rgb(101, 119, 134)
+  color: $twigrey
 
 .version
-  color: rgb(27, 149, 224)
+  color: $twiblue
 
 </style>
 

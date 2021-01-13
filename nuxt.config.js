@@ -1,16 +1,20 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
+  
+  target: 'static',
+  mode: 'spa',
+  router: {
+      base: ''
+      },
   head: {
-    title: 'twittr',
-    target: 'static',
-
+    title: 'fake-twit-gen',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/icon.jpeg' }
+      { rel: 'icon', type: 'image/x-icon', href: 'icon.jpeg' }
     ]
   },
 
