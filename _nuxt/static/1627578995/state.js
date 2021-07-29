@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Ffake-twit-gen\u002F_nuxt\u002Fstatic\u002F1627578995",layout:"default",error:a,serverRendered:true,routePath:"\u002F",config:{_app:{basePath:"\u002Ffake-twit-gen\u002F",assetsPath:"\u002Ffake-twit-gen\u002F_nuxt\u002F",cdnURL:a}}}}(null));
